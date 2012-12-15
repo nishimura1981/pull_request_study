@@ -10,6 +10,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("なおしました");
     }
 
     @Override
@@ -17,7 +18,9 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
-    
+
+    //oden
+
     public boolean testMethod() {
         return false;
     }
