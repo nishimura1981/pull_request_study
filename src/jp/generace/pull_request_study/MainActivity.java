@@ -19,6 +19,6 @@ public class MainActivity extends Activity {
     }
     
     public boolean testMethod() {
-    {
         return false;
     }
+}
